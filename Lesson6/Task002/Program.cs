@@ -32,6 +32,6 @@ void GetCrossing(double[] func1, double[] func2)
 
     double CoordinateX =  (func1[1]-func2[1])/(func2[0]-func1[0]);
     double CoordinateY =  func1[0]*(func1[1]-func2[1])/(func2[0]-func1[0]) + func1[1];
-    Console.WriteLine($"Intersection point: [{CoordinateX}, {CoordinateY}]");
+    Console.WriteLine($"Intersection point: ({CoordinateX}, {CoordinateY})");
 }
 
